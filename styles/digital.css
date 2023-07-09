@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  align-items: center;
+  background: gray;
+}
+.menus {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+li > a {
+  text-decoration: none;
+  color: black;
+  background-color: aqua;
+  padding: 5px 20px;
+  border-radius: 3px;
+}
+.banner-container {
+  height: 100vh;
+  background-image: url('../image/background.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.primary {
+  color: red;
+}
+.title {
+  font-size: 55px;
+  color: white;
+  font-weight: bold;
+}
+.title-description {
+  color: white;
+  padding: 10px;
+  width: 50%;
+  margin: auto;
+}
+.btn {
+  padding: 12px 20px;
+  border: none;
+  font-weight: bold;
+}
+
+.bg-primary-red {
+  background-color: red;
+  color: white;
+}
+.bg-primary-white {
+  background-color: white;
+  color: red;
+}
+.service-container {
+  height: 100vh;
+  background-image: url('../image/footer-bg.png'),
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+.icon {
+  width: 70px;
+  margin-bottom: 20px;
+}
+.box {
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  padding: 50px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  box-shadow: 4px 4px 8px rgb(87, 237, 71);
+}
+.sevice-description {
+  width: 50%;
+}
+.all-box {
+  display: flex;
+  margin-top: 10px;
+  gap: 10px;
+}
+.auther-pic {
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+}
+.auther-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.auther-profile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-right: 2px solid red;
+  padding-right: 20px;
+}
