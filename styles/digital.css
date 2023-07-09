@@ -115,3 +115,29 @@ li > a {
   border-right: 2px solid red;
   padding-right: 20px;
 }
+.phone-call {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  padding-right: 20px;
+  border-right: 2px solid white;
+}
+.appointment-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  padding: 20px;
+  background-color: red;
+  border-radius: 20px;
+  margin-top: -65px;
+  color: white;
+}
+.appointment-description {
+  padding-left: 5px;
+  padding-right: 10px;
+}
+.cell-container {
+  padding-left: 20px;
+}
