@@ -16,10 +16,10 @@
   font-size: 18px;
   font-weight: bold;
 }
-li > a {
+.menu-btn {
   text-decoration: none;
   color: black;
-  background-color: aqua;
+  background-color: rgba(200, 46, 7, 0.908);
   padding: 5px 20px;
   border-radius: 3px;
 }
@@ -174,4 +174,36 @@ li > a {
   justify-content: center;
   gap: 40px;
   margin-top: 30px;
+}
+.footer-container {
+  height: 60vh;
+  background-image: url('../image/footer-bg.png'),
+    linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.footer-column {
+  list-style: none;
+  text-align: center;
+}
+li > a {
+  text-decoration: none;
+  color: white;
+}
+.footer-column-heading {
+  margin-bottom: 25px;
+}
+.social-links {
+  text-align: center;
+  margin-top: 5px;
+}
+.social-links a {
+  margin-right: 20px;
 }
