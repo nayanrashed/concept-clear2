@@ -75,7 +75,7 @@
   color: white;
   display: flex;
   align-items: center;
-  padding: 30px;
+  padding: 50px 120px 120px 120px;
 }
 .icon {
   width: 70px;
@@ -91,8 +91,17 @@
   border-radius: 5px;
   box-shadow: 4px 4px 8px rgba(200, 46, 7, 0.908);
 }
+.service-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .sevice-description {
   width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.left-service-container > ol {
+  padding-left: 15px;
 }
 .all-box {
   display: flex;
@@ -108,6 +117,7 @@
   display: flex;
   gap: 20px;
   align-items: center;
+  margin-top: 20px;
 }
 .auther-profile {
   display: flex;
@@ -223,4 +233,8 @@ li > a {
 }
 .btn-round {
   border-radius: 20px;
+}
+.footer-column > li,
+.footer-column > p {
+  margin-bottom: 5px;
 }
