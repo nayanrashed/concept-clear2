@@ -53,6 +53,7 @@
   padding: 12px 20px;
   border: none;
   font-weight: bold;
+  border-radius: 2px;
 }
 
 .bg-primary-red {
@@ -88,7 +89,7 @@
   background-color: white;
   color: black;
   border-radius: 5px;
-  box-shadow: 4px 4px 8px rgb(87, 237, 71);
+  box-shadow: 4px 4px 8px rgba(200, 46, 7, 0.908);
 }
 .sevice-description {
   width: 50%;
@@ -206,4 +207,20 @@ li > a {
 }
 .social-links a {
   margin-right: 20px;
+}
+.menu-btn:hover {
+  background-color: red;
+}
+.bg-primary-red:hover {
+  background-color: white;
+  color: red;
+  cursor: pointer;
+}
+.bg-primary-white:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.btn-round {
+  border-radius: 20px;
 }
