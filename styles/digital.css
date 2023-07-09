@@ -141,3 +141,37 @@ li > a {
 .cell-container {
   padding-left: 20px;
 }
+.blog-title {
+  color: black;
+  text-align: center;
+  margin-top: 50px;
+}
+.blog-container {
+  width: 80%;
+  margin: auto;
+}
+.blog-description {
+  text-align: center;
+  font-size: 20px;
+  margin: 5px 100px;
+}
+.card {
+  width: 250px;
+  height: 320px;
+  box-shadow: 4px 8px 4px gray;
+  border-radius: 5px;
+}
+.blog-img {
+  width: 100%;
+  border-radius: 5px;
+}
+.card-title {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+}
